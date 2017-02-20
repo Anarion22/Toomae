@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B48D250A1E447A42000E9ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D25091E447A42000E9ABA /* AppDelegate.swift */; };
+		B0D35C7BA792B3BC593334A1 /* Pods_Toomae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1402E871C0E5F6F6071BCF30 /* Pods_Toomae.framework */; };
+		B4395D7C1E5AE42D00DFFC3E /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D771E5AE42D00DFFC3E /* LoginView.xib */; };
+		B4395D7D1E5AE42D00DFFC3E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D781E5AE42D00DFFC3E /* MainVC.swift */; };
+		B4395D7E1E5AE42D00DFFC3E /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D791E5AE42D00DFFC3E /* MainVC.xib */; };
+		B4395D7F1E5AE42D00DFFC3E /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D7A1E5AE42D00DFFC3E /* MyProfile.swift */; };
+		B4395D801E5AE42D00DFFC3E /* MyProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D7B1E5AE42D00DFFC3E /* MyProfile.xib */; };
+		B4395D831E5AE43700DFFC3E /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D811E5AE43700DFFC3E /* Icon.swift */; };
+		B4395D841E5AE43700DFFC3E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D821E5AE43700DFFC3E /* LoginView.swift */; };
+		B4395D861E5AE48400DFFC3E /* AddAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D851E5AE48400DFFC3E /* AddAppVC.swift */; };
+		B4395D881E5AE48B00DFFC3E /* AddAppVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D871E5AE48B00DFFC3E /* AddAppVC.xib */; };
+		B4395D8A1E5AE49400DFFC3E /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D891E5AE49400DFFC3E /* AddVC.swift */; };
+		B4395D8C1E5AE4CD00DFFC3E /* AddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D8B1E5AE4CD00DFFC3E /* AddVC.xib */; };
+		B4395D8E1E5AE53300DFFC3E /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D8D1E5AE53300DFFC3E /* Register.swift */; };
+		B4395D901E5AE53B00DFFC3E /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D8F1E5AE53B00DFFC3E /* Register.xib */; };
+		B4395D921E5AE54200DFFC3E /* AddWebSiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D911E5AE54200DFFC3E /* AddWebSiteVC.swift */; };
+		B4395D941E5AE54C00DFFC3E /* AddWebSiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D931E5AE54C00DFFC3E /* AddWebSiteVC.xib */; };
+		B4395D991E5AE55C00DFFC3E /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D951E5AE55C00DFFC3E /* AppCell.swift */; };
+		B4395D9A1E5AE55C00DFFC3E /* AppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D961E5AE55C00DFFC3E /* AppCell.xib */; };
+		B4395D9B1E5AE55C00DFFC3E /* Followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D971E5AE55C00DFFC3E /* Followers.swift */; };
+		B4395D9C1E5AE55C00DFFC3E /* Followers.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D981E5AE55C00DFFC3E /* Followers.xib */; };
+		B4395DA21E5AE56C00DFFC3E /* FollowersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D9D1E5AE56C00DFFC3E /* FollowersVC.swift */; };
+		B4395DA31E5AE56C00DFFC3E /* FollowersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395D9E1E5AE56C00DFFC3E /* FollowersVC.xib */; };
+		B4395DA41E5AE56C00DFFC3E /* FollowingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395D9F1E5AE56C00DFFC3E /* FollowingVC.swift */; };
+		B4395DA51E5AE56C00DFFC3E /* FollowingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DA01E5AE56C00DFFC3E /* FollowingVC.xib */; };
+		B4395DA61E5AE56C00DFFC3E /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DA11E5AE56C00DFFC3E /* IconCell.swift */; };
+		B4395DB31E5AE58000DFFC3E /* IconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DA71E5AE58000DFFC3E /* IconCell.xib */; };
+		B4395DB41E5AE58000DFFC3E /* MyFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DA81E5AE58000DFFC3E /* MyFollowers.swift */; };
+		B4395DB51E5AE58000DFFC3E /* MyFollowers.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DA91E5AE58000DFFC3E /* MyFollowers.xib */; };
+		B4395DB61E5AE58000DFFC3E /* SearchNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DAA1E5AE58000DFFC3E /* SearchNamesCell.swift */; };
+		B4395DB71E5AE58000DFFC3E /* SearchNamesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DAB1E5AE58000DFFC3E /* SearchNamesCell.xib */; };
+		B4395DB81E5AE58000DFFC3E /* SearchNamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DAC1E5AE58000DFFC3E /* SearchNamesVC.swift */; };
+		B4395DB91E5AE58000DFFC3E /* SearchNamesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DAD1E5AE58000DFFC3E /* SearchNamesVC.xib */; };
+		B4395DBA1E5AE58000DFFC3E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DAE1E5AE58000DFFC3E /* Settings.swift */; };
+		B4395DBB1E5AE58000DFFC3E /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DAF1E5AE58000DFFC3E /* Settings.xib */; };
+		B4395DBC1E5AE58000DFFC3E /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DB01E5AE58000DFFC3E /* ShareVC.swift */; };
+		B4395DBD1E5AE58000DFFC3E /* ShareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DB11E5AE58000DFFC3E /* ShareVC.xib */; };
+		B4395DBE1E5AE58000DFFC3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395DB21E5AE58000DFFC3E /* User.swift */; };
+		B4395DC01E5AE67400DFFC3E /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4395DBF1E5AE67400DFFC3E /* LoginView.xib */; };
 		B48D250C1E447A42000E9ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D250B1E447A42000E9ABA /* ViewController.swift */; };
 		B48D250F1E447A42000E9ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D250D1E447A42000E9ABA /* Main.storyboard */; };
 		B48D25111E447A42000E9ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48D25101E447A42000E9ABA /* Assets.xcassets */; };
 		B48D25141E447A42000E9ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D25121E447A42000E9ABA /* LaunchScreen.storyboard */; };
 		B48D251F1E447A42000E9ABA /* ToomaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D251E1E447A42000E9ABA /* ToomaeUITests.swift */; };
+		B4BDC0AE1E5AE8520059C14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDC0AD1E5AE8520059C14B /* AppDelegate.swift */; };
+		B4BDC0B01E5AEC520059C14B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BDC0AF1E5AEC520059C14B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,8 +65,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1402E871C0E5F6F6071BCF30 /* Pods_Toomae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toomae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D98AA9CEDB53BBE674EA59E /* Pods-Toomae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toomae.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toomae/Pods-Toomae.debug.xcconfig"; sourceTree = "<group>"; };
+		B4395D771E5AE42D00DFFC3E /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		B4395D781E5AE42D00DFFC3E /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B4395D791E5AE42D00DFFC3E /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		B4395D7A1E5AE42D00DFFC3E /* MyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		B4395D7B1E5AE42D00DFFC3E /* MyProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyProfile.xib; sourceTree = "<group>"; };
+		B4395D811E5AE43700DFFC3E /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		B4395D821E5AE43700DFFC3E /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B4395D851E5AE48400DFFC3E /* AddAppVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAppVC.swift; sourceTree = "<group>"; };
+		B4395D871E5AE48B00DFFC3E /* AddAppVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAppVC.xib; sourceTree = "<group>"; };
+		B4395D891E5AE49400DFFC3E /* AddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		B4395D8B1E5AE4CD00DFFC3E /* AddVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddVC.xib; sourceTree = "<group>"; };
+		B4395D8D1E5AE53300DFFC3E /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		B4395D8F1E5AE53B00DFFC3E /* Register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
+		B4395D911E5AE54200DFFC3E /* AddWebSiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWebSiteVC.swift; sourceTree = "<group>"; };
+		B4395D931E5AE54C00DFFC3E /* AddWebSiteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddWebSiteVC.xib; sourceTree = "<group>"; };
+		B4395D951E5AE55C00DFFC3E /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		B4395D961E5AE55C00DFFC3E /* AppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppCell.xib; sourceTree = "<group>"; };
+		B4395D971E5AE55C00DFFC3E /* Followers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Followers.swift; sourceTree = "<group>"; };
+		B4395D981E5AE55C00DFFC3E /* Followers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Followers.xib; sourceTree = "<group>"; };
+		B4395D9D1E5AE56C00DFFC3E /* FollowersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersVC.swift; sourceTree = "<group>"; };
+		B4395D9E1E5AE56C00DFFC3E /* FollowersVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowersVC.xib; sourceTree = "<group>"; };
+		B4395D9F1E5AE56C00DFFC3E /* FollowingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingVC.swift; sourceTree = "<group>"; };
+		B4395DA01E5AE56C00DFFC3E /* FollowingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowingVC.xib; sourceTree = "<group>"; };
+		B4395DA11E5AE56C00DFFC3E /* IconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		B4395DA71E5AE58000DFFC3E /* IconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
+		B4395DA81E5AE58000DFFC3E /* MyFollowers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFollowers.swift; sourceTree = "<group>"; };
+		B4395DA91E5AE58000DFFC3E /* MyFollowers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFollowers.xib; sourceTree = "<group>"; };
+		B4395DAA1E5AE58000DFFC3E /* SearchNamesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNamesCell.swift; sourceTree = "<group>"; };
+		B4395DAB1E5AE58000DFFC3E /* SearchNamesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchNamesCell.xib; sourceTree = "<group>"; };
+		B4395DAC1E5AE58000DFFC3E /* SearchNamesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNamesVC.swift; sourceTree = "<group>"; };
+		B4395DAD1E5AE58000DFFC3E /* SearchNamesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchNamesVC.xib; sourceTree = "<group>"; };
+		B4395DAE1E5AE58000DFFC3E /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B4395DAF1E5AE58000DFFC3E /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		B4395DB01E5AE58000DFFC3E /* ShareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
+		B4395DB11E5AE58000DFFC3E /* ShareVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareVC.xib; sourceTree = "<group>"; };
+		B4395DB21E5AE58000DFFC3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B4395DBF1E5AE67400DFFC3E /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		B48D25061E447A42000E9ABA /* Toomae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toomae.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B48D25091E447A42000E9ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48D250B1E447A42000E9ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B48D250E1E447A42000E9ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48D25101E447A42000E9ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +113,9 @@
 		B48D251A1E447A42000E9ABA /* ToomaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToomaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48D251E1E447A42000E9ABA /* ToomaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToomaeUITests.swift; sourceTree = "<group>"; };
 		B48D25201E447A42000E9ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BDC0AD1E5AE8520059C14B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4BDC0AF1E5AEC520059C14B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F74EA1B9AADE1ED1A19CA0E5 /* Pods-Toomae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toomae.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toomae/Pods-Toomae.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D35C7BA792B3BC593334A1 /* Pods_Toomae.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +137,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F3BB9374D6A8BA17689E87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D98AA9CEDB53BBE674EA59E /* Pods-Toomae.debug.xcconfig */,
+				F74EA1B9AADE1ED1A19CA0E5 /* Pods-Toomae.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B004D04A2D8B20E5D77A4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1402E871C0E5F6F6071BCF30 /* Pods_Toomae.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B48D24FD1E447A42000E9ABA = {
 			isa = PBXGroup;
 			children = (
 				B48D25081E447A42000E9ABA /* Toomae */,
 				B48D251D1E447A42000E9ABA /* ToomaeUITests */,
 				B48D25071E447A42000E9ABA /* Products */,
+				51F3BB9374D6A8BA17689E87 /* Pods */,
+				6B004D04A2D8B20E5D77A4F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +177,47 @@
 		B48D25081E447A42000E9ABA /* Toomae */ = {
 			isa = PBXGroup;
 			children = (
-				B48D25091E447A42000E9ABA /* AppDelegate.swift */,
+				B4395D8D1E5AE53300DFFC3E /* Register.swift */,
+				B4395D8F1E5AE53B00DFFC3E /* Register.xib */,
+				B4395D891E5AE49400DFFC3E /* AddVC.swift */,
+				B4395D8B1E5AE4CD00DFFC3E /* AddVC.xib */,
+				B4395D851E5AE48400DFFC3E /* AddAppVC.swift */,
+				B4395D871E5AE48B00DFFC3E /* AddAppVC.xib */,
+				B4395D911E5AE54200DFFC3E /* AddWebSiteVC.swift */,
+				B4395D931E5AE54C00DFFC3E /* AddWebSiteVC.xib */,
+				B4395D951E5AE55C00DFFC3E /* AppCell.swift */,
+				B4395D961E5AE55C00DFFC3E /* AppCell.xib */,
+				B4395D971E5AE55C00DFFC3E /* Followers.swift */,
+				B4395D981E5AE55C00DFFC3E /* Followers.xib */,
+				B4395D9D1E5AE56C00DFFC3E /* FollowersVC.swift */,
+				B4395D9E1E5AE56C00DFFC3E /* FollowersVC.xib */,
+				B4395D9F1E5AE56C00DFFC3E /* FollowingVC.swift */,
+				B4395DA01E5AE56C00DFFC3E /* FollowingVC.xib */,
+				B4395DA11E5AE56C00DFFC3E /* IconCell.swift */,
+				B4395D771E5AE42D00DFFC3E /* LoginView.xib */,
+				B4395D781E5AE42D00DFFC3E /* MainVC.swift */,
+				B4395D791E5AE42D00DFFC3E /* MainVC.xib */,
+				B4395D811E5AE43700DFFC3E /* Icon.swift */,
+				B4395DA71E5AE58000DFFC3E /* IconCell.xib */,
+				B4395DA81E5AE58000DFFC3E /* MyFollowers.swift */,
+				B4395DA91E5AE58000DFFC3E /* MyFollowers.xib */,
+				B4395DAA1E5AE58000DFFC3E /* SearchNamesCell.swift */,
+				B4395DAB1E5AE58000DFFC3E /* SearchNamesCell.xib */,
+				B4395DAC1E5AE58000DFFC3E /* SearchNamesVC.swift */,
+				B4395DAD1E5AE58000DFFC3E /* SearchNamesVC.xib */,
+				B4395DAE1E5AE58000DFFC3E /* Settings.swift */,
+				B4395DAF1E5AE58000DFFC3E /* Settings.xib */,
+				B4395DB01E5AE58000DFFC3E /* ShareVC.swift */,
+				B4395DB11E5AE58000DFFC3E /* ShareVC.xib */,
+				B4395DB21E5AE58000DFFC3E /* User.swift */,
+				B4395D821E5AE43700DFFC3E /* LoginView.swift */,
+				B4395DBF1E5AE67400DFFC3E /* LoginView.xib */,
+				B4395D7A1E5AE42D00DFFC3E /* MyProfile.swift */,
+				B4395D7B1E5AE42D00DFFC3E /* MyProfile.xib */,
+				B4BDC0AD1E5AE8520059C14B /* AppDelegate.swift */,
 				B48D250B1E447A42000E9ABA /* ViewController.swift */,
 				B48D250D1E447A42000E9ABA /* Main.storyboard */,
+				B4BDC0AF1E5AEC520059C14B /* GoogleService-Info.plist */,
 				B48D25101E447A42000E9ABA /* Assets.xcassets */,
 				B48D25121E447A42000E9ABA /* LaunchScreen.storyboard */,
 				B48D25151E447A42000E9ABA /* Info.plist */,
@@ -103,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48D25231E447A42000E9ABA /* Build configuration list for PBXNativeTarget "Toomae" */;
 			buildPhases = (
+				FDBE5C6076DC5392E0F97367 /* [CP] Check Pods Manifest.lock */,
 				B48D25021E447A42000E9ABA /* Sources */,
 				B48D25031E447A42000E9ABA /* Frameworks */,
 				B48D25041E447A42000E9ABA /* Resources */,
+				DA9F44F2EB8DB1A13E4232A7 /* [CP] Embed Pods Frameworks */,
+				9E30954D9833B3A6AA8DF727 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +322,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4395DA31E5AE56C00DFFC3E /* FollowersVC.xib in Resources */,
+				B4395D7E1E5AE42D00DFFC3E /* MainVC.xib in Resources */,
+				B4395D901E5AE53B00DFFC3E /* Register.xib in Resources */,
+				B4395DB51E5AE58000DFFC3E /* MyFollowers.xib in Resources */,
+				B4395DBD1E5AE58000DFFC3E /* ShareVC.xib in Resources */,
+				B4395D941E5AE54C00DFFC3E /* AddWebSiteVC.xib in Resources */,
+				B4395DB91E5AE58000DFFC3E /* SearchNamesVC.xib in Resources */,
+				B4395D801E5AE42D00DFFC3E /* MyProfile.xib in Resources */,
+				B4395DB71E5AE58000DFFC3E /* SearchNamesCell.xib in Resources */,
 				B48D25141E447A42000E9ABA /* LaunchScreen.storyboard in Resources */,
+				B4395D9A1E5AE55C00DFFC3E /* AppCell.xib in Resources */,
 				B48D25111E447A42000E9ABA /* Assets.xcassets in Resources */,
+				B4395DA51E5AE56C00DFFC3E /* FollowingVC.xib in Resources */,
+				B4395D8C1E5AE4CD00DFFC3E /* AddVC.xib in Resources */,
+				B4395D881E5AE48B00DFFC3E /* AddAppVC.xib in Resources */,
+				B4395D7C1E5AE42D00DFFC3E /* LoginView.xib in Resources */,
+				B4395DB31E5AE58000DFFC3E /* IconCell.xib in Resources */,
+				B4395DC01E5AE67400DFFC3E /* LoginView.xib in Resources */,
 				B48D250F1E447A42000E9ABA /* Main.storyboard in Resources */,
+				B4BDC0B01E5AEC520059C14B /* GoogleService-Info.plist in Resources */,
+				B4395D9C1E5AE55C00DFFC3E /* Followers.xib in Resources */,
+				B4395DBB1E5AE58000DFFC3E /* Settings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +356,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E30954D9833B3A6AA8DF727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toomae/Pods-Toomae-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9F44F2EB8DB1A13E4232A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toomae/Pods-Toomae-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBE5C6076DC5392E0F97367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B48D25021E447A42000E9ABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BDC0AE1E5AE8520059C14B /* AppDelegate.swift in Sources */,
+				B4395DA41E5AE56C00DFFC3E /* FollowingVC.swift in Sources */,
+				B4395DA21E5AE56C00DFFC3E /* FollowersVC.swift in Sources */,
+				B4395D8A1E5AE49400DFFC3E /* AddVC.swift in Sources */,
+				B4395DB61E5AE58000DFFC3E /* SearchNamesCell.swift in Sources */,
+				B4395DBC1E5AE58000DFFC3E /* ShareVC.swift in Sources */,
+				B4395D841E5AE43700DFFC3E /* LoginView.swift in Sources */,
 				B48D250C1E447A42000E9ABA /* ViewController.swift in Sources */,
-				B48D250A1E447A42000E9ABA /* AppDelegate.swift in Sources */,
+				B4395D9B1E5AE55C00DFFC3E /* Followers.swift in Sources */,
+				B4395D8E1E5AE53300DFFC3E /* Register.swift in Sources */,
+				B4395D921E5AE54200DFFC3E /* AddWebSiteVC.swift in Sources */,
+				B4395DB81E5AE58000DFFC3E /* SearchNamesVC.swift in Sources */,
+				B4395D7F1E5AE42D00DFFC3E /* MyProfile.swift in Sources */,
+				B4395D7D1E5AE42D00DFFC3E /* MainVC.swift in Sources */,
+				B4395D991E5AE55C00DFFC3E /* AppCell.swift in Sources */,
+				B4395DA61E5AE56C00DFFC3E /* IconCell.swift in Sources */,
+				B4395D831E5AE43700DFFC3E /* Icon.swift in Sources */,
+				B4395D861E5AE48400DFFC3E /* AddAppVC.swift in Sources */,
+				B4395DB41E5AE58000DFFC3E /* MyFollowers.swift in Sources */,
+				B4395DBA1E5AE58000DFFC3E /* Settings.swift in Sources */,
+				B4395DBE1E5AE58000DFFC3E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +564,7 @@
 		};
 		B48D25241E447A42000E9ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D98AA9CEDB53BBE674EA59E /* Pods-Toomae.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C9B96M49R;
@@ -350,6 +578,7 @@
 		};
 		B48D25251E447A42000E9ABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74EA1B9AADE1ED1A19CA0E5 /* Pods-Toomae.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2C9B96M49R;
@@ -408,6 +637,7 @@
 				B48D25251E447A42000E9ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48D25261E447A42000E9ABA /* Build configuration list for PBXNativeTarget "ToomaeUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +646,7 @@
 				B48D25281E447A42000E9ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

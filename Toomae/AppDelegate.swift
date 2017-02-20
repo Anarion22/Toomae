@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        
+        FIRApp.configure()
+        
+        if FIRAuth.auth()?.currentUser != nil {
+            do {
+                let mainVC = MainVC(nibName: "MainVC", bundle: nil)
+                
+                window!.rootViewController = mainVC
+                window!.makeKeyAndVisible()
+
+                
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        }
+        
+       
+        else{
+            
+            let loginView = LoginView(nibName: "LoginView", bundle: nil)
+            
+            window!.rootViewController = loginView
+            window!.makeKeyAndVisible()
+            
+            
+        }
+
         return true
     }
 

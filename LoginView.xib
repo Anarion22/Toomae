@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginView" customModule="BrandGlobe" customModuleProvider="target">
+            <connections>
+                <outlet property="password" destination="9CI-jG-tK0" id="qyO-pa-dyx"/>
+                <outlet property="username" destination="T13-4J-bOH" id="Pjh-sS-qqO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="loginView" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cx-ed-8MT">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.09254319221" green="0.068948566909999995" blue="0.34729361530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnD-lu-cm3">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.09254319221" green="0.068948566909999995" blue="0.34729361530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="T13-4J-bOH">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9CI-jG-tK0">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggv-TI-y3Z">
+                    <color key="backgroundColor" red="0.09254319221" green="0.068948566909999995" blue="0.34729361530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="hMp-E6-AVu"/>
+                        <constraint firstAttribute="width" constant="86" id="kAR-Ed-CZo"/>
+                    </constraints>
+                    <state key="normal" title="Log in">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="logOut:" destination="-1" eventType="touchUpInside" id="yjn-wg-yiY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOG IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDe-3d-SuF">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.09254319221" green="0.068948566909999995" blue="0.34729361530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TnD-lu-cm3" firstAttribute="top" secondItem="T13-4J-bOH" secondAttribute="bottom" constant="42" id="1SP-yB-0ZF"/>
+                <constraint firstItem="cDe-3d-SuF" firstAttribute="centerX" secondItem="T13-4J-bOH" secondAttribute="centerX" id="5tX-x0-lll"/>
+                <constraint firstItem="9CI-jG-tK0" firstAttribute="top" secondItem="TnD-lu-cm3" secondAttribute="bottom" constant="18" id="ARP-pp-tnl"/>
+                <constraint firstItem="ggv-TI-y3Z" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EMB-gw-kae"/>
+                <constraint firstItem="TnD-lu-cm3" firstAttribute="leading" secondItem="9CI-jG-tK0" secondAttribute="leading" id="HYh-SA-AkZ"/>
+                <constraint firstItem="8cx-ed-8MT" firstAttribute="leading" secondItem="T13-4J-bOH" secondAttribute="leading" id="MdG-ts-KZa"/>
+                <constraint firstItem="cDe-3d-SuF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="26" id="Pic-xj-fEZ"/>
+                <constraint firstItem="T13-4J-bOH" firstAttribute="top" secondItem="8cx-ed-8MT" secondAttribute="bottom" constant="16" id="TA5-Th-83d"/>
+                <constraint firstItem="8cx-ed-8MT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="TJ1-QZ-OA8"/>
+                <constraint firstItem="9CI-jG-tK0" firstAttribute="centerX" secondItem="ggv-TI-y3Z" secondAttribute="centerX" id="V11-oS-x0J"/>
+                <constraint firstItem="T13-4J-bOH" firstAttribute="leading" secondItem="TnD-lu-cm3" secondAttribute="leading" id="WF0-db-ALM"/>
+                <constraint firstItem="ggv-TI-y3Z" firstAttribute="top" secondItem="9CI-jG-tK0" secondAttribute="bottom" constant="56" id="iix-ly-lpr"/>
+                <constraint firstItem="T13-4J-bOH" firstAttribute="top" secondItem="cDe-3d-SuF" secondAttribute="bottom" constant="50" id="oDa-aA-xrM"/>
+                <constraint firstItem="T13-4J-bOH" firstAttribute="trailing" secondItem="9CI-jG-tK0" secondAttribute="trailing" id="ttv-1q-F53"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
