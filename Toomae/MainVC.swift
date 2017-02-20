@@ -64,6 +64,8 @@ class MainVC: UIViewController {
         
         didPressTab(buttons[selectedIndex])
         
+        print("asdapsok")
+        
 
     }
 
